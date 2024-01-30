@@ -2,7 +2,7 @@ const sharp = require('sharp');
 const Jimp = require('jimp');
 
 // Load the image using sharp
-sharp('uploads/testImage.jpg')
+sharp('testImage.jpg')
   .toBuffer()
   .then((data) => {
     // Convert the image data to a buffer
